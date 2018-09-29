@@ -1,2 +1,1 @@
-From ubuntu
 RUN echo "Hello world!!!"
