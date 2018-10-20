@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto">
+<item android:id="@+id/Call"
+    android:title="Emergency calls">
+</item>
+<item  android:id="@+id/Map"
+    android:title="Hospital Info !">
+
+</item>
+<item android:id="@+id/Remainders2"
+    android:title="Drug Usage">
+
+</item>
+    <item android:id="@+id/Notifications"
+        android:title="Remainders">
+        </item>
+</menu>

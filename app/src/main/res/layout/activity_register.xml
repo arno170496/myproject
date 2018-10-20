@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/nestedScrollView"
+    android:background="@drawable/a"
+    tools:context="com.example.admin.project.activities.Register"
+    tools:layout_editor_absoluteY="81dp"
+    tools:layout_editor_absoluteX="0dp">
+
+    <android.support.v7.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+      <android.support.design.widget.TextInputLayout
+          android:id="@+id/textInputLayoutEmail"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_marginTop="60dp"
+          android:layout_gravity="center">
+
+          <android.support.design.widget.TextInputEditText
+              android:layout_width="288dp"
+              android:layout_height="wrap_content"
+              android:layout_marginTop="10dp"
+              android:id="@+id/textInputEditTextEmail"
+              android:inputType="text"
+              android:hint="Email"
+              android:textColorHint="@color/colorPrimaryDark"
+
+              />
+      </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/textInputLayoutName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="center"
+            >
+
+            <android.support.design.widget.TextInputEditText
+                android:layout_width="288dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:id="@+id/textInputEditTextName"
+                android:inputType="text"
+                android:hint="Name"
+                android:textColorHint="@color/colorPrimaryDark"
+
+                />
+        </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/textInputLayoutPassword"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_gravity="center">
+
+                <android.support.design.widget.TextInputEditText
+                    android:layout_width="288dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:id="@+id/textInputEditTextPassword"
+                    android:inputType="text"
+                    android:hint="Password"
+                    android:textColorHint="@color/colorPrimaryDark"
+
+                    />
+            </android.support.design.widget.TextInputLayout>
+                <android.support.design.widget.TextInputLayout
+                    android:id="@+id/textInputLayoutConfirmPassword"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:layout_gravity="center"
+                    >
+
+                    <android.support.design.widget.TextInputEditText
+                        android:layout_width="288dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:id="@+id/textInputEditTextConfirmPassword"
+                        android:inputType="text"
+                        android:hint="Confirm Password"
+                        android:textColorHint="@color/colorPrimaryDark"
+                        />
+                </android.support.design.widget.TextInputLayout>
+                <android.support.v7.widget.AppCompatButton
+                    android:layout_width="200dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginLeft="50dp"
+                    android:gravity="center"
+                    android:text="submit"
+                    android:id="@+id/submitbutton"
+                    android:shadowColor="@color/colorAccent"
+                    android:background="@color/colorPrimary"
+                    />
+
+        <android.support.v7.widget.AppCompatTextView
+            android:id="@+id/LinkRegister"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="7dp"
+            android:text="Already a user? Login!"
+            android:paddingLeft="50dp"
+            android:textSize="20sp"
+            android:textColor="@color/colorPrimaryDark"/>
+
+    </android.support.v7.widget.LinearLayoutCompat>
+</android.support.v4.widget.NestedScrollView>

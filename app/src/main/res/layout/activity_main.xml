@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background_on"
+    tools:context="com.example.admin.project.activities.MainActivity">
+
+    <TextView
+        android:layout_width="380dp"
+        android:layout_height="561dp"
+        android:textSize="25sp"
+        android:paddingLeft="40dp"
+        android:textStyle="italic"
+        android:layout_marginTop="30dp"
+        android:text="Secured Smart Health Care System to Monitor Basic vital signs using IOT"
+        android:textColor="@android:color/white"
+        tools:layout_editor_absoluteY="3dp"
+        tools:layout_editor_absoluteX="2dp"
+        android:id="@+id/textView2" />
+    <ImageView
+        android:layout_width="360dp"
+        android:layout_height="180dp"
+        android:src="@drawable/ic_adb_black_24dp"
+        tools:layout_editor_absoluteY="276dp"
+        tools:layout_editor_absoluteX="140dp"
+        android:layout_marginBottom="250dp"
+        android:layout_alignBottom="@+id/textView2"
+        android:layout_centerHorizontal="true" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:paddingLeft="40dp"
+        android:textStyle="italic"
+        android:layout_marginTop="330dp"
+        android:text="Under the Guidance of:"
+        android:textColor="@android:color/white"
+        tools:layout_editor_absoluteY="3dp"
+        tools:layout_editor_absoluteX="2dp"
+        android:id="@+id/textView3" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:paddingLeft="60dp"
+        android:textStyle="italic"
+        android:layout_marginTop="360dp"
+        android:text="Prof. Smitha Kurian"
+        android:textColor="@android:color/white"
+        tools:layout_editor_absoluteY="3dp"
+        tools:layout_editor_absoluteX="2dp"
+       />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:paddingLeft="40dp"
+        android:textStyle="italic"
+        android:layout_marginTop="390dp"
+        android:text="By:"
+        android:textColor="@android:color/white"
+        tools:layout_editor_absoluteY="3dp"
+        tools:layout_editor_absoluteX="2dp"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:textStyle="italic"
+        android:paddingLeft="60dp"
+        android:layout_marginTop="420dp"
+        android:text="Satish K   1HK14CS057"
+        android:textColor="@android:color/white"
+        tools:layout_editor_absoluteY="3dp"
+        tools:layout_editor_absoluteX="2dp"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:textStyle="italic"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:paddingLeft="60dp"
+        android:layout_marginTop="445dp"
+        android:text="Irfan Basha  1HK14CS025"
+        android:textColor="@android:color/white"
+        tools:layout_editor_absoluteY="3dp"
+        tools:layout_editor_absoluteX="2dp"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="italic"
+        android:textSize="20sp"
+        android:paddingLeft="60dp"
+        android:layout_marginTop="470dp"
+        android:text="Athik F  1HK14CS016"
+        android:textColor="@android:color/white"
+        tools:layout_editor_absoluteY="3dp"
+        tools:layout_editor_absoluteX="2dp"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="italic"
+        android:textSize="20sp"
+        android:paddingLeft="60dp"
+        android:layout_marginTop="500dp"
+        android:text="Arnold Arun D'souza  1HK14CS012"
+        android:textColor="@android:color/white"
+        tools:layout_editor_absoluteY="3dp"
+        tools:layout_editor_absoluteX="2dp"
+        />
+</RelativeLayout>

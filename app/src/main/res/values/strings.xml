@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">BVS</string>
+    <string name="str">Not a Member,Sign Up</string>
+    <string name="basic">BASIC VITAL SIGNS</string>
+    <string name="Not">New user? sign up</string>
+    <string name="BP">Blood Pressure</string>
+    <string name="PR">Pulse Rate</string>
+    <string name="BT">Body Temperature</string>
+    <string name="HL">Help</string>
+    <string name="title_activity_remainder">RemainderActivity</string>
+
+
+</resources>

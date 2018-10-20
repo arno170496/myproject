@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:orientation="vertical"
+tools:context=".activities.Medical_centers">
+    <include android:id="@+id/toolbar3"  layout="@layout/toolbar3">
+    </include>
+
+<TextView
+    android:id="@+id/textView"
+    android:paddingLeft="70dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Hospital List!"
+    android:textColor="@android:color/background_dark"
+    android:textSize="30sp" />
+
+
+    <Button
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:onClick="submit2"
+        android:text="Manipal Hospital"
+        android:background="@color/color2"/>
+    <Button
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:onClick="submit5"
+        android:text="Fortis Hospital"
+        android:background="@color/color2"/>
+    <Button
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:onClick="submit1"
+        android:text="Apollo Hospital"
+        android:background="@color/color2"/>
+
+    <Button
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:onClick="submit3"
+        android:text="Aster CMI Hospital"
+        android:background="@color/color2"/>
+    <Button
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:onClick="submit4"
+        android:text="Hosmat Hospital"
+        android:background="@color/color2"/>
+    <Button
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:onClick="submit"
+        android:text="Mallya Hospital"
+        android:background="@color/color2"/>
+
+<TextView
+    android:paddingLeft="90dp"
+    android:layout_marginTop="20dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Locations !"
+    android:textSize="30sp"
+    android:textColor="@android:color/background_dark"
+    />
+<Button
+    android:layout_gravity="center"
+    android:layout_marginTop="3dp"
+    android:layout_width="300dp"
+    android:layout_height="wrap_content"
+    android:onClick="submitmap"
+    android:text="Location"
+    android:background="@color/color2"/>
+
+</LinearLayout>

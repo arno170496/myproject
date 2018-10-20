@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.admin.project.activities.HelpActivity">
+    <include android:id="@+id/toolbar2"  layout="@layout/toolbar2">
+    </include>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    <TextView
+        android:paddingLeft="20dp"
+        android:text="Systolic :"
+        android:textColor="@color/color3"
+        android:layout_marginTop="40dp"
+        android:textSize="30dp"
+        android:layout_width="170dp"
+        android:layout_height="60dp"
+        />
+
+    <TextView
+        android:layout_marginTop="40dp"
+        android:paddingLeft="0dp"
+        android:text=" "
+        android:textColor="@color/color3"
+        android:textSize="30dp"
+        android:layout_width="170dp"
+        android:layout_height="60dp"
+        android:id="@+id/textview12"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:paddingLeft="20dp"
+            android:text="Diastolic :"
+            android:textColor="@color/color2"
+            android:layout_marginTop="40dp"
+            android:textSize="30dp"
+            android:layout_width="170dp"
+            android:layout_height="60dp"
+            />
+
+        <TextView
+            android:layout_marginTop="40dp"
+            android:paddingLeft="0dp"
+            android:text=" "
+            android:textColor="@color/color2"
+            android:textSize="30dp"
+            android:layout_width="170dp"
+            android:layout_height="60dp"
+            android:id="@+id/textview13"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:paddingLeft="20dp"
+            android:text="PulseRate:"
+            android:textColor="@color/color4"
+            android:layout_marginTop="40dp"
+            android:textSize="30dp"
+            android:layout_width="170dp"
+            android:layout_height="60dp"
+            />
+
+        <TextView
+            android:layout_marginTop="40dp"
+            android:paddingLeft="0dp"
+            android:text=" "
+            android:textColor="@color/color4"
+            android:textSize="30dp"
+            android:layout_width="170dp"
+            android:layout_height="60dp"
+            android:id="@+id/textview14"/>
+    </LinearLayout>
+
+    <!--   <TextView
+           android:paddingLeft="20dp"
+           android:text="Pulse Rate"
+           android:textColor="@color/color4"
+           android:layout_marginTop="200dp"
+           android:textSize="30dp"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:id="@+id/textview14"/>-->
+       <Button
+           android:layout_marginTop="30dp"
+           android:layout_gravity="center"
+           android:id="@+id/button"
+           android:text="@string/basic"
+           android:onClick="generate"
+           android:layout_below="@+id/textview12"
+           android:layout_width="200dp"
+           android:layout_height="wrap_content"
+           android:layout_centerHorizontal="true"
+           android:textColor="@android:color/background_dark"
+           android:background="@android:color/white"
+           />
+     <!--  <TextView
+           android:layout_marginTop="400dp"
+           android:layout_width="match_parent"
+           android:layout_height="match_parent"
+           android:id="@+id/results"/> -->
+    <Button
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        android:id="@+id/Helpme"
+        android:onClick="helpme"
+        android:text="Ambulance"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:textColor="@android:color/background_dark"
+        android:background="@android:color/holo_blue_dark"
+        />
+
+</LinearLayout>
